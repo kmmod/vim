@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/km/.vim/pack/colors/start/minimalist/colors'
+let g:netrw_dirhist_5='/home/km/.vim/pack/colors/start/minimalist'
+let g:netrw_dirhist_4='/home/km/.vim/pack/colors/start'
+let g:netrw_dirhist_3='/home/km/.vim/pack/colors'
+let g:netrw_dirhist_2='/home/km/.vim/pack'
+let g:netrw_dirhist_1='/home/km/.vim'

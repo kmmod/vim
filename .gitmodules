@@ -7,3 +7,36 @@
 [submodule "pack/colors/start/one"]
 	path = pack/colors/start/one
 	url = https://github.com/rakr/vim-one.git
+[submodule "pack/colors/start/carbonized"]
+	path = pack/colors/start/carbonized
+	url = https://github.com/nightsense/carbonized
+[submodule "pack/colors/start/Apprentice"]
+	path = pack/colors/start/Apprentice
+	url = https://github.com/romainl/Apprentice.git
+[submodule "pack/colors/start/vim-deep-space"]
+	path = pack/colors/start/vim-deep-space
+	url = https://github.com/tyrannicaltoucan/vim-deep-space.git
+[submodule "pack/colors/start/papercolor-theme"]
+	path = pack/colors/start/papercolor-theme
+	url = https://github.com/NLKNguyen/papercolor-theme
+[submodule "pack/colors/start/minimalist"]
+	path = pack/colors/start/minimalist
+	url = https://github.com/dikiaap/minimalist
+[submodule "pack/colors/start/nord-vim"]
+	path = pack/colors/start/nord-vim
+	url = https://github.com/arcticicestudio/nord-vim
+[submodule "pack/colors/start/oceanic-material"]
+	path = pack/colors/start/oceanic-material
+	url = https://github.com/glepnir/oceanic-material
+[submodule "pack/colors/start/onedark.vim"]
+	path = pack/colors/start/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule "pack/colors/start/vim-colors-rakr"]
+	path = pack/colors/start/vim-colors-rakr
+	url = https://github.com/rakr/vim-colors-rakr
+[submodule "pack/colors/start/purify"]
+	path = pack/colors/start/purify
+	url = https://github.com/kyoz/purify.git
+[submodule "pack/colors/start/vim-colorschemes"]
+	path = pack/colors/start/vim-colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git
