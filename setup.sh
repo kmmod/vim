@@ -13,12 +13,12 @@ function clone_vim()
   
   # PLUGINS 
 
-  git submodule add https://github.com/scrooloose/nerdtree "${HOME}/.vim/pack/plugins/start/nerdtree"
-  git submodule add https://github.com/Xuyuanp/nerdtree-git-plugin "${HOME}/.vim/pack/plugins/start/nerdtree-git-plugin"
+  git clone https://github.com/scrooloose/nerdtree "${HOME}/.vim/pack/plugins/start/nerdtree"
+  git clone https://github.com/Xuyuanp/nerdtree-git-plugin "${HOME}/.vim/pack/plugins/start/nerdtree-git-plugin"
 
   # SCHEMES
 
-  git submodule add https://github.com/rakr/vim-one.git "${HOME}/.vim/pack/colors/start/one"
+  git clone add https://github.com/rakr/vim-one.git "${HOME}/.vim/pack/colors/start/one"
 
 }
 
