@@ -5,11 +5,12 @@ set mouse=a
 
 set updatetime=400
 
+syntax on
+
 " VISUAL CONFIG
 
-syntax on
 set background="dark"
-colorscheme purify
+colorscheme one
 
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
