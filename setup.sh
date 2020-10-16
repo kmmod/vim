@@ -12,6 +12,4 @@ function clone_vim()
 		|| die "Could not clone repository to ${HOME}/.vim"
 }
 
-clone_vim $1
-
-
+clone_vim
