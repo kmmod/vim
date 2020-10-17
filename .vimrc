@@ -8,8 +8,13 @@ Plug 'alvan/vim-closetag'
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
+
+
 Plug 'majutsushi/tagbar'
 Plug 'Yggdroot/indentLine'
+
+Plug 'ryanoasis/vim-devicons'
+
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'safv12/andromeda.vim'
 
@@ -28,6 +33,8 @@ let g:auto_save = 1  " enable AutoSave on Vim startup
 
 set foldmethod=indent
 set nofoldenable
+set encoding=UTF-8
+
 
 " VISUAL CONFIG- 
 
