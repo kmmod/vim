@@ -9,6 +9,8 @@ Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'tpope/vim-commentary'
 Plug 'jiangmiao/auto-pairs'
 
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
 
 Plug 'majutsushi/tagbar'
 Plug 'Yggdroot/indentLine'
@@ -17,6 +19,10 @@ Plug 'ryanoasis/vim-devicons'
 
 Plug 'kyoz/purify', { 'rtp': 'vim' }
 Plug 'safv12/andromeda.vim'
+Plug 'ghifarit53/tokyonight-vim'
+Plug 'joshdick/onedark.vim'
+Plug 'sainnhe/sonokai'
+
 
 call plug#end()
 
@@ -39,7 +45,7 @@ set encoding=UTF-8
 " VISUAL CONFIG- 
 
 set background="dark"
-colorscheme purify 
+colorscheme onedark 
  
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
