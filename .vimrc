@@ -15,6 +15,9 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'majutsushi/tagbar'
 Plug 'Yggdroot/indentLine'
 
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
 Plug 'ryanoasis/vim-devicons'
 
 Plug 'kyoz/purify', { 'rtp': 'vim' }
@@ -42,10 +45,10 @@ set nofoldenable
 set encoding=UTF-8
 
 
-" VISUAL CONFIG- 
+" VISUAL CONFIG
 
 set background="dark"
-colorscheme onedark 
+colorscheme onedark
  
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
@@ -66,6 +69,10 @@ set smarttab
 
 map <C-z> :NERDTreeToggle<CR>
 nmap <C-x> :TagbarToggle<CR>
+
+" AIRLINE
+
+autocmd VimEnter * AirlineToggleWhitespace
 
 " NERD TREE 
 
