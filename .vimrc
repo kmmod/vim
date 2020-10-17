@@ -39,6 +39,7 @@ hi LineNr guibg=NONE ctermbg=NONE
 
 let g:indentLine_char = '▏'
 
+:set fillchars+=vert:▏
 set number
 
 set termguicolors
