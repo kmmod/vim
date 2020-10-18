@@ -1,0 +1,7 @@
+const { getRandomTile } = require("./gameFieldManager");
+
+test('Check if random within correct range', ()=>{
+ expect(getRandomTile(0)).toStrictEqual
+
+([0,0]);
+})

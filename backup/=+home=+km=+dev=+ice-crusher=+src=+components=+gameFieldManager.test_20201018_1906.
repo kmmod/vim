@@ -1,0 +1,15 @@
+const { getRandomTile } = require("./gameFieldManager");
+
+describe('Check if random within correct range', ()=>{
+  it('should work for 0 size', ()=>{
+    expect(getRandomTile(0)).toStrictEqual([0,0]);
+  })
+  for(let i = 0; i < 10000; i++){
+    it("should not exceed maximum size", () => {
+      expect(getRandomTile(10)).not.toStrictEqual([])
+
+    });
+  }
+
+    
+})

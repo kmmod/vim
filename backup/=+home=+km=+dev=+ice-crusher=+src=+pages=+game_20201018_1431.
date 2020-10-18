@@ -1,0 +1,54 @@
+import React, { useState, useEffect } from "react";
+import style from "../styles/game.module.css";
+
+function Game() {
+  const [grid, setGrid] = useState();
+  const [current, setCurrent] = useState();
+
+  const gridSize = 10;
+
+  const createGrid = (size) => {
+    const matrix = []
+    for (let i = 0; i < size; i++) {
+      const row = Array(size).fill();
+      for (let y = 0; y < size; y++){
+        row.push(
+          <div id={i.toString() + y.toString()} className={style.tile}>
+            {i}, {y}
+            <div className={style.box} />
+          </div>
+        );
+      }
+      matrix.push(row)
+    }
+
+    return (
+      <>
+        {matrix.map((item, index) => (
+          <div className={style.row} key={index}>
+            {item}
+          </div>
+        ))}
+      </>
+    );
+  };
+
+  useEffect(() => {
+    const newGrid = createGrid(gridSize);
+    setGrid(newGrid);
+  }, []);
+
+  const tileHover = (e) => {
+    
+  }
+
+  return (
+    <div className={style.wrapper}>
+      <div className={style.field}>
+        {grid}
+      </div>
+    </div>
+  );
+}
+
+export default Game;
