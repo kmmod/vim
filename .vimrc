@@ -43,7 +43,7 @@ let g:auto_save = 1  " enable AutoSave on Vim startup
 set foldmethod=indent
 set nofoldenable
 set encoding=UTF-8
-
+set incsearch
 
 " VISUAL CONFIG
 
@@ -69,6 +69,9 @@ set smarttab
 
 map <C-z> :NERDTreeToggle<CR>
 nmap <C-x> :TagbarToggle<CR>
+noremap <leader>p "*p
+noremap <leader>y "+y
+noremap <leader>d "+d
 
 " AIRLINE
 
