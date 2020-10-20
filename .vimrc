@@ -267,4 +267,6 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 let g:closetag_filenames = '*.html,*.xhtml,*.phtmli,*.js,*.jsx'
 let g:closetag_emptyTags_caseSensitive = 1
 
+" LINE INDENT
 
+let g:vim_json_conceal = 0
