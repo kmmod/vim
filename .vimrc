@@ -35,7 +35,7 @@ call plug#end()
 set ttyfast
 set mouse=a
 
-set updatetime=400
+set updatetime=250
 syntax on
 
 let g:auto_save = 1  " enable AutoSave on Vim startup
@@ -52,6 +52,10 @@ colorscheme onedark
  
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
+
+autocmd InsertEnter * hi LineNr guifg=#00A7D4 
+autocmd InsertChange * hi LineNr guifg=#00A7D4 
+autocmd InsertLeave * hi LineNr guifg=#5F5F5F
 
 let g:indentLine_char = '▏'
 
