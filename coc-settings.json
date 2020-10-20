@@ -1,3 +1,13 @@
 {
-  "coc.preferences.formatOnSaveFiletypes": ["css","scss","sass","pcss","html","js","jsx","markdown"]
+  "coc.preferences.formatOnSaveFiletypes": [
+    "css",
+    "scss",
+    "sass",
+    "pcss",
+    "html",
+    "js",
+    "jsx",
+    "markdown"
+  ],
+  "git.enableGutters": true
 }
