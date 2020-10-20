@@ -54,10 +54,11 @@ colorscheme onedark
  
 hi Normal guibg=NONE ctermbg=NONE
 hi LineNr guibg=NONE ctermbg=NONE
+hi VertSplit guifg=#232323 
 
-autocmd InsertEnter * hi LineNr guifg=#00A7D4 
-autocmd InsertChange * hi LineNr guifg=#00A7D4 
-autocmd InsertLeave * hi LineNr guifg=#5F5F5F
+autocmd InsertEnter * hi LineNr guifg=#00A7D4 | hi VertSplit guifg=#00A7D4  
+autocmd InsertChange * hi LineNr guifg=#00A7D4 | hi VertSplit guifg=#00A7D4 
+autocmd InsertLeave * hi LineNr guifg=#5F5F5F | hi VertSplit guifg=#232323 
 
 let g:indentLine_char = '▏'
 

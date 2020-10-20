@@ -1,0 +1,39 @@
+from datetime import datetime
+
+targetApi = ''
+debugKey = 'secretkey'
+debug = True
+
+
+def detection_data(results):
+    for line in results:
+        print('detectionline', line)
+    return
+
+
+def log_to_file(line):
+    pass
+
+
+def current_file(create=False):
+    currentfile = ''
+    if create:
+        timestamp = datetime.now().strftime("%Y_%m_%d_%H%M_%S")
+        f= open()
+    pass
+
+
+def create_file():
+    pass
+
+
+def remove_tmp_file():
+    pass
+
+
+def queue_timer():
+    pass
+
+
+def send_data():
+    pass
