@@ -46,6 +46,7 @@ set encoding=UTF-8
 set incsearch
 
 set conceallevel=0
+
 " VISUAL CONFIG
 
 set background="dark"

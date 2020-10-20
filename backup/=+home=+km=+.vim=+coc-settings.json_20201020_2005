@@ -14,11 +14,5 @@
   "git.addedSign.text": "++",
   "git.addedSign.hlGroup": "NULL",
   "git.removedSign.text": "--",
-  "git.removedSign.hlGroup": "NULL",
-  "git.changedSign.text": "~~",
-  "git.changedSign.hlGroup": "NULL",
-  "git.changeRemovedSign.text": "==",
-  "git.changeRemovedSign.hlGroup": "NULL",
-  "git.topRemovedSign.text": "‾‾",
-  "git.topRemovedSign.hlGroup": "NULL"
+  "git.removedSign.hlGroup": "NULL"
 }
