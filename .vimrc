@@ -45,6 +45,7 @@ set nofoldenable
 set encoding=UTF-8
 set incsearch
 
+set conceallevel=0
 " VISUAL CONFIG
 
 set background="dark"
@@ -265,5 +266,4 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 let g:closetag_filenames = '*.html,*.xhtml,*.phtmli,*.js,*.jsx'
 let g:closetag_emptyTags_caseSensitive = 1
 
-" COC GIT
 
