@@ -12,6 +12,8 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'yuezk/vim-js'
 Plug 'maxmellon/vim-jsx-pretty'
 
+Plug 'vim-python/python-syntax'
+
 Plug 'majutsushi/tagbar'
 Plug 'Yggdroot/indentLine'
 
@@ -271,3 +273,7 @@ let g:closetag_emptyTags_caseSensitive = 1
 " LINE INDENT
 
 let g:vim_json_conceal = 0
+
+" PYTHON SYNTAX
+
+let g:python_highlight_all = 1
